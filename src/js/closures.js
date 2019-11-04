@@ -2,7 +2,7 @@ function findBy(value) {
   const newArr = value;
   return function () {
     for (let item in newArr){
-      return newArr[item] == itemOne;
+      return newArr[item] == 'help';
     }
   }
 }
